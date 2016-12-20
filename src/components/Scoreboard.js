@@ -1,5 +1,7 @@
 import React from 'react'
 
+// Where the overall score is shown
+
 class Scoreboard extends React.Component {
 	render(){
 		return (

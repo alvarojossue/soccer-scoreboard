@@ -1,5 +1,7 @@
 import React from 'react'
 
+// Where goals are added or substracted
+
 class Field extends React.Component {
 	render(){
 		return (

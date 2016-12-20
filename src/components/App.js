@@ -7,9 +7,9 @@ class App extends React.Component {
 	render(){
 		return (
 			<div>
-				<Scoreboard />
-				<Field />
-				<Locker />
+				<Scoreboard /> {/* Where the overall score is shown */}
+				<Field /> {/* Where goals are added or substracted */}
+				<Locker /> {/* Where teams are created */}
 			</div>
 		)
 	}
