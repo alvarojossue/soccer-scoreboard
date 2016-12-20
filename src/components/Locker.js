@@ -8,7 +8,7 @@ class Locker extends React.Component {
 		return (
 			<div>
 				<h2>Locker</h2>
-				<AddTeamForm />
+				<AddTeamForm addTeam={this.props.addTeam} /> {/* Passes the function addTeam declared in App. js and also passed in <Locker /> */}
 			</div>
 		)
 	}
