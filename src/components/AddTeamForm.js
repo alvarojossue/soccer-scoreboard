@@ -11,13 +11,14 @@ class AddTeamForm extends React.Component {
 		}
 
 		this.props.addTeam(team)
+		this.form.reset();
 
 	}
 
 
 	render(){
 		return (
-			<form onSubmit={(e) => this.createTeam(e)}> {/*On click, it executes the createTeam function. */}
+			<form ref={(input) => {this.form = input}} onSubmit={(e) => this.createTeam(e)}> {/*On click, it executes the createTeam function. */}
 				<input ref={(input) => {this.name = input}} type="text" placeholder="Team Name" /> {/*We use ref to access the input text from the creatTeam function */}
 				<button type="submit">Create Team</button>
 			</form>
