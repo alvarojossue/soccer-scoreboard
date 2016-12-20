@@ -1,9 +1,16 @@
 import React from 'react'
+import Scoreboard from './Scoreboard'
+import Field from './Field'
+import Locker from './Locker'
 
 class App extends React.Component {
 	render(){
 		return (
-			<h1>Soccer Scoreboard</h1>
+			<div>
+				<Scoreboard />
+				<Field />
+				<Locker />
+			</div>
 		)
 	}
 }
