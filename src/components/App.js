@@ -28,7 +28,7 @@ class App extends React.Component {
 		return (
 			<div>
 				<Scoreboard /> {/* Where the overall score is shown */}
-				<Field /> {/* Where goals are added or substracted */}
+				<Field teams={this.state.teams}/> {/* Where goals are added or substracted. We pass all the teams */}
 				<Locker addTeam={this.addTeam}/> {/* Where teams are created. We pass the function addTeam as props */}
 			</div>
 		)
