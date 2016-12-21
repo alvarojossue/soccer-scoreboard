@@ -1,6 +1,6 @@
 == Soccer Scoreboard
 
-Single-page application to keep track of soccer scores.
+Single-page application to keep track of soccer matches scores.
 
 Technologies: React.js, HTML, CSS, JSX, ES6
 
